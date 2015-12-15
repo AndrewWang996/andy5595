@@ -1,0 +1,14 @@
+<template name="projects">
+	<h3 class="welcome-section-title"> Projects </h3>
+	{{#each getProjects}}
+		<div class="project">
+			<div class="project-name">
+				{{projectName}}
+			</div>
+
+			<div class="project-description"> 
+				{{projectDescription}} 
+			</div>
+		</div>
+	{{/each}}
+</template>

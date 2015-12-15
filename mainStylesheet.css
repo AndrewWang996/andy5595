@@ -1,0 +1,218 @@
+html, body {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	line-height: normal; 
+}
+
+h1 {
+	font-family: 'Arvo', sans-serif;
+	letter-spacing: 10px;
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 20px; 
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 20px 50px;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 10px 15px;
+	background-color: #393532; 
+}
+
+h4 {
+	padding: 30px;
+	font-size: 40px;
+	color: #aaa;
+	font-weight: 300; 
+}
+
+
+a {
+	color: #ef6500;
+	transition: color 0.2s;
+	text-decoration: none; 
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-weight: 800;
+	font-size: 16px;
+	margin-top: 8px; 
+}
+
+li a {
+    color: #aaa;
+    border: 3px solid #aaa;
+    display: inline-block;
+    padding: 8px 17px;
+    text-decoration: none;
+    transition: color 0.2s, border-color 0.2s;
+    -webkit-transition: color 0.2s, border-color 0.2s;
+}
+
+li a:hover {
+	opacity: 1;
+	color: #000;
+	border: 3px solid #000;
+}
+
+div {
+	display: block;
+}
+
+.outer-container {
+	min-width: 500px;
+	height: 100%;
+}
+
+.aboutme {
+	padding: 0 200px;
+	position: relative;
+	height: 100%;
+	top: calc(50% - 130px);
+	top: -webkit-calc(50% - 130px); 
+}
+
+.welcome-section {
+	/*padding: 0px 200px;*/
+	position: relative;
+	height: 100%;
+	color: #000;
+	font-weight: 300;
+	margin: 30px 0;
+	overflow: auto;
+	vertical-align: baseline;
+}
+
+.project {
+	border-top: 2px solid #ddd;
+}
+
+.project-name {
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.project-description {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.hack {
+	border-top: 1px solid #ddd;
+}
+
+.hack-name {
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.hack-description {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+ul.icons {
+	display: inline-block;
+	margin-left: 8px;
+}
+
+ul.icons li {
+	display: inline;
+	transition: color 200ms, opacity 200ms;
+    -webkit-transition: color 200ms, opacity 200ms;
+}
+
+ul.icons li:hover {
+	color: black;
+	opacity: 0.8;
+}
+
+li ul.icons li a {
+	border: 0;
+    font-weight: 100;
+    color: #fefefe;
+    padding: 0;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 0.8;
+    transition: color 0.2s, opacity 0.2s;
+    -webkit-transition: color 0.2s, opacity 0.2s;
+}
+
+li ul.icons li a.fa-github {
+	background-color: black;
+}
+
+li ul.icons li a.fa-facebook {
+	background-color: #3B5998;
+}
+
+li ul.icons li a.fa-linkedin {
+	background-color: #4875B4;
+}
+
+li ul.icons li a.fa-envelope {
+	background-color: #aaa;
+}
+
+/*
+twitter bootstrap
+SemanticsUI
+
+Toast: if I want to do most of it myself
+*/
+
+
+
+
+/*
+Meteor queries
+*/
+
+
+
+
+/* 
+QUESTIONS / UNCLEAR 
+===================
+
+position: relative;
+position: absolute;
+
+*/

@@ -1,0 +1,14 @@
+<template name="hacks">
+	<h3 class="welcome-section-title"> Hacks </h3>
+	{{#each getHacks}}
+		<div class="hack">
+			<div class="hack-name"> 
+				{{hackName}}
+			</div>
+
+			<div class="hack-description"> 
+				{{hackDescription}} 
+			</div>
+		</div>
+	{{/each}}
+</template>
